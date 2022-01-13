@@ -8,7 +8,7 @@ with open ('file1.bin', 'rb') as fp:
 
 count=0
 print('Would you Like to enter')
-print('1. Sl.No from 1 to 120')
+print('1. Sl.No from 1 to',len(x))
 print("OR")
 print("2. Name of spacecraft")
 print("Enter Option 1 OR 2")
